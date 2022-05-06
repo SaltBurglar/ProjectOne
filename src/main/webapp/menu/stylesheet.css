@@ -1,0 +1,89 @@
+@charset "ISO-8859-1";
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-image: url("../resources/canvas.png");
+  
+}
+
+h1{
+	font-size: 3.0em;
+	text-align: center;
+}
+
+img{ 	
+	margin: auto;
+	
+}
+
+
+.topbody{
+	padding: 2%;
+	margin: auto;
+	background-color: whitesmoke;
+	border: 5px solid #e9e9f2;
+	border-radius: 40px 40px 40px 40px;
+	-moz-border-radius: 40px 40px 40px 40px;
+	-webkit-border-radius: 40px 40px 40px 40px;
+	width: 70%;
+	min-width: 500px;
+}
+
+.bottombody{
+	margin: auto;
+	display: inline-block;
+	background-color: whitesmoke;
+	border: 5px solid #e9e9f2;
+	border-top: 5px solid whitesmoke;
+	border-radius: 0px 0px 40px 40px;
+	-moz-border-radius: 0px 0px 40px 40px;
+	-webkit-border-radius: 0px 0px 40px 40px;
+	width: 30%;
+	min-width: 400px;
+
+}
+
+.myTable{
+	width: 65%;
+	min-width: 500px;
+	margin: auto;
+	text-align: center;
+	font-size: 0.9em;
+
+}
+
+fieldset{
+	margin: auto;
+	width: 40%;
+	min-width: 400px;
+	text-align: center;
+}
+
+th{
+	text-align: left;
+	margin: 10%;
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+
+.headers{
+	border-collapse: collapse;
+	border-bottom: 1pt solid black;
+}
+
+td{
+	text-align: left;
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+
+form{
+	padding:1%;
+	
+}
+
+input{
+	margin: 5px;
+	padding: 5px;
+}

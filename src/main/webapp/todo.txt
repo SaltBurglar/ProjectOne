@@ -1,0 +1,62 @@
+List of Stuff I'm Writing Down to Do Later
+------------------------------------------
+
+Make all servletMethods POST methods
+	- Yes, all of them.
+	- Include a body cause they are gonna check.
+
+
+
+let xhttp = new XMLHttpRequest();
+    xhttp.open('POST', `http://localhost:9001/ExpenseReimbursementSystem/json/newrequest`);
+    xhttp.setRequestHeader("Accept", "application/json");
+    xhttp.setRequestHeader("Content-Type", "application/json");
+    xhttp.onreadystatechange = function (){
+        if(xhttp.readyState == 4 && xhttp.status == 200){
+            console.log("readyState is 4!!! AND status is 200!!!");
+        }
+    }
+    if(document.getElementById("lodging").checked){
+        var A = 1
+    }
+    if(document.getElementById("travel").checked){
+        var A = 2
+    }
+    if(document.getElementById("food").checked){
+        var A = 3
+    }
+    if(document.getElementById("other").checked){
+        var A = 4
+    }
+
+    data = {
+        "reimbAmt": document.getElementById('reimbamt').value,
+        "reimbDescription": document.getElementById('reimbdesc').value,
+        "requestType": A
+    };
+    let lilJson = JSON.stringify(data);
+    xhttp.send(lilJson);
+
+
+
+
+
+
+JUnit Testing
+	- This is an interesting one. Leave this one later.
+	- Double check to see what we have to check.
+	   * Else, testings for all the inputs and make you sure you CANT break them.
+
+Session Entrypoints
+	- LOL Have not implemented this yet.
+	- Leave this last. 
+
+JavaDocs
+	- LOL
+	- ALL THE FUNCTIONS
+	- ENJOY TYPING
+
+
+	
+Timestamp
+	- Timestamps are printing in milliseconds. Have to transfer that to an actual date.

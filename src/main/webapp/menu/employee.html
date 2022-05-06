@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>ERS - Employee Login</title>
+<link rel="stylesheet" href="/ProjectOne/menu/stylesheet.css">
+<link rel="icon" href="../favicon.ico">
+</head>
+<body>
+<div class="topbody">
+	<h1>Reimbursement Table</h1>
+		<table class="myTable">
+			<th class="headers">#</th>
+			<th class="headers">Amount</th>
+			<th class="headers">Submitted</th>
+			<th class="headers">Desc.</th>
+			<th class="headers">Author</th>
+			<th class="headers">Status</th>
+			<th class="headers">Type</th>
+			<tbody id="myTableBody">
+			<!-- Insert the DOM assignment here. -->
+			</tbody>
+		</table>
+	</div>
+<div class="bottombody">
+	<!-- <input type="number" id="myAmountInput" placeholder="100"> Create function not implemented yet --->
+	<input type="text" id="myDescriptionInput" placeholder="Short Description">
+	<input type="text" id="myTypeInput" placeholder="0">
+	<input type="submit" id="myReimbursementSumbmit" placeholder="0">
+	<p>Status Codes:<br>0 : Unresolved<br>1 : Approved<br>2 : Denied<br>
+        <br>Reimbursement Type Codes:<br>1 : 'Lodging' <br>2 : 'Travel'<br>3 : 'Food'<br>4: 'Other'
+      </p>
+	<script src="../xhttpobject_employee.js" type="text/javascript"></script>
+</div>
+</body>
