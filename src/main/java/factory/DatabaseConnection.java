@@ -1,9 +1,9 @@
 package factory;
 
 public class DatabaseConnection {
-	String url = "jdbc:postgresql://datamaster.cpmdw3ymjnl3.us-east-1.rds.amazonaws.com:5432/genesis";
+	String url = "AWS_DB_URI";
 	String username = "batman";
-	String password = "Ctmo0105";
+	String password = "AWS_PASSWORD";
 	
 	public String getUrl() {
 		return url;
@@ -15,5 +15,18 @@ public class DatabaseConnection {
 
 	public String getPassword() {
 		return password;
+	}
+
+	public void setUrl(String url) {
+		this.url = url;
+	}
+
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
 	}	
+	
 }
