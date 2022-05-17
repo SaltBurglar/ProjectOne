@@ -12,9 +12,20 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
 ## Features
 
 Expense Reimbursement System supports the following features:
-* View all past Expense Requests done by all users.
-* Change the status of Expense Requests inside the webpage itself.
-* Filter the Expense Requests based on their status.
+Single login page that handles two types of users: Employee, and Finance Manager.
+
+* An Employee can submit reimbursements.
+
+* An Employee can view all of the reimbursements they submitted, and check their status.
+
+* A Finance Manager can view reimbursements by status.
+
+* Through Radio buttons on a table, they can select pending reimbursements.
+
+* With a reimbursement selected, a Finance Manager may deny or approve it.
+
+* Input validation through JavaScript when submissions, approvals, or denial is attempted.
+
 
 ## Getting Started
    
